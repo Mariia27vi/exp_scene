@@ -203,7 +203,7 @@ psychoJS.start({
     {'name': 'scene601.jpg', 'path': 'scene601.jpg'},
     {'name': 'scene117.jpg', 'path': 'scene117.jpg'},
     {'name': 'scene196.jpg', 'path': 'scene196.jpg'},
-    {'name': 'default.png', 'path': 'https://pavlovia.org/assets/default/default.png'},
+    {'name': 'blank.png', 'path': 'blank.png'},
   ]
 });
 
@@ -433,7 +433,7 @@ async function experimentInit() {
   image_sc_stim = new visual.ImageStim({
     win : psychoJS.window,
     name : 'image_sc_stim', units : undefined, 
-    image : 'default.png', mask : undefined,
+    image : 'blank.png', mask : undefined,
     anchor : 'center',
     ori : 0.0, 
     pos : [0, 0], 
@@ -808,7 +808,7 @@ async function experimentInit() {
   image_back = new visual.ImageStim({
     win : psychoJS.window,
     name : 'image_back', units : undefined, 
-    image : 'default.png', mask : undefined,
+    image : 'blank.png', mask : undefined,
     anchor : 'center',
     ori : 0.0, 
     pos : [0, 0], 
